@@ -1,0 +1,195 @@
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_input_username.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (394, 50)->(656, 83), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (1801, 551), 'rectangle': ((1713.0, 540.0), (1713.0, 562.0), (1890.0, 562.0), (1890.0, 540.0)), 'confidence': 0.3660224676132202}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.52 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1069, 1737), 'rectangle': ((741, 1696), (741, 1779), (1397, 1779), (1397, 1696)), 'confidence': 0.5616310834884644}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.12 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (1488, 1013), 'rectangle': [(1292, 989), (1292, 1038), (1685, 1038), (1685, 989)], 'confidence': 0.91219362616539}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.03 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (1488, 1013), 'rectangle': [(1292, 989), (1292, 1038), (1685, 1038), (1685, 989)], 'confidence': 0.91219362616539, 'time': 1.030083179473877}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_input_password.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (384, 48)->(640, 80), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (1488, 1099), 'rectangle': ((1296.0, 1076.0), (1296.0, 1123.0), (1680.0, 1123.0), (1680.0, 1076.0)), 'confidence': 0.9732930064201355}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.48 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (1488, 1099), 'rectangle': ((1296.0, 1076.0), (1296.0, 1123.0), (1680.0, 1123.0), (1680.0, 1076.0)), 'confidence': 0.9732930064201355, 'time': 0.4817063808441162}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_login.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (224, 50)->(373, 83), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (1289, 1441), 'rectangle': ((1206.0, 1423.0), (1206.0, 1460.0), (1372.0, 1460.0), (1372.0, 1423.0)), 'confidence': 0.6331076622009277}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.63 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1946, 1473), 'rectangle': ((1760, 1432), (1760, 1515), (2133, 1515), (2133, 1432)), 'confidence': 0.5495293140411377}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.12 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (1319, 1229), 'rectangle': [(1207, 1205), (1207, 1254), (1431, 1254), (1431, 1205)], 'confidence': 0.9831081628799438}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.75 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (1319, 1229), 'rectangle': [(1207, 1205), (1207, 1254), (1431, 1254), (1431, 1205)], 'confidence': 0.9831081628799438, 'time': 0.7479870319366455}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_cruise_free.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (210, 52)->(350, 86), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (2595, 918), 'rectangle': ((2385.0, 866.0), (2385.0, 970.0), (2805.0, 970.0), (2805.0, 866.0)), 'confidence': 0.36718031764030457}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.87 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1945, 101), 'rectangle': ((1770, 58), (1770, 144), (2120, 144), (2120, 58)), 'confidence': 0.4293859004974365}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.16 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2772, 113), 'rectangle': [(2667, 87), (2667, 139), (2877, 139), (2877, 87)], 'confidence': 0.9877710342407227}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.32 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2772, 113), 'rectangle': [(2667, 87), (2667, 139), (2877, 139), (2877, 87)], 'confidence': 0.9877710342407227, 'time': 1.3233025074005127}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_cruise_free.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (210, 52)->(350, 86), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (1615, 1084), 'rectangle': ((1532.0, 1064.0), (1532.0, 1105.0), (1698.0, 1105.0), (1698.0, 1064.0)), 'confidence': 0.4177899956703186}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.61 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1945, 101), 'rectangle': ((1770, 58), (1770, 144), (2120, 144), (2120, 58)), 'confidence': 0.4293859004974365}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.14 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2772, 113), 'rectangle': [(2667, 87), (2667, 139), (2877, 139), (2877, 87)], 'confidence': 0.9877710342407227}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.97 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2772, 113), 'rectangle': [(2667, 87), (2667, 139), (2877, 139), (2877, 87)], 'confidence': 0.9877710342407227, 'time': 0.9724323749542236}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_cruise_fixed.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (206, 46)->(343, 76), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (1486, 955), 'rectangle': ((1402.0, 937.0), (1402.0, 974.0), (1571.0, 974.0), (1571.0, 937.0)), 'confidence': 0.21222171187400818}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.91 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1937, 117), 'rectangle': ((1766, 79), (1766, 155), (2109, 155), (2109, 79)), 'confidence': 0.42804476618766785}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.17 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2772, 174), 'rectangle': [(2669, 151), (2669, 197), (2875, 197), (2875, 151)], 'confidence': 0.9937824904918671}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.31 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2772, 174), 'rectangle': [(2669, 151), (2669, 197), (2875, 197), (2875, 151)], 'confidence': 0.9937824904918671, 'time': 1.3087801933288574}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_cruise_fixed.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (206, 46)->(343, 76), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (1486, 955), 'rectangle': ((1402.0, 937.0), (1402.0, 974.0), (1571.0, 974.0), (1571.0, 937.0)), 'confidence': 0.21143314242362976}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.75 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1937, 117), 'rectangle': ((1766, 79), (1766, 155), (2109, 155), (2109, 79)), 'confidence': 0.4282403588294983}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.12 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2772, 174), 'rectangle': [(2670, 151), (2670, 197), (2875, 197), (2875, 151)], 'confidence': 0.9934546947479248}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.01 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2772, 174), 'rectangle': [(2670, 151), (2670, 197), (2875, 197), (2875, 151)], 'confidence': 0.9934546947479248, 'time': 1.0134620666503906}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_view_free.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (212, 56)->(353, 93), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (2564, 772), 'rectangle': ((2480.0, 750.0), (2480.0, 794.0), (2649.0, 794.0), (2649.0, 750.0)), 'confidence': 0.17618270218372345}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.72 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1947, 99), 'rectangle': ((1771, 53), (1771, 146), (2124, 146), (2124, 53)), 'confidence': 0.44317370653152466}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.18 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2771, 231), 'rectangle': [(2666, 203), (2666, 259), (2877, 259), (2877, 203)], 'confidence': 0.9607535600662231}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.37 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2771, 231), 'rectangle': [(2666, 203), (2666, 259), (2877, 259), (2877, 203)], 'confidence': 0.9607535600662231, 'time': 1.373121976852417}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_people_flow.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (210, 46)->(350, 76), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (2599, 1084), 'rectangle': ((2516.0, 1066.0), (2516.0, 1102.0), (2682.0, 1102.0), (2682.0, 1066.0)), 'confidence': 0.28823068737983704}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.73 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (2382, 202), 'rectangle': ((2207, 164), (2207, 240), (2557, 240), (2557, 164)), 'confidence': 0.4439588785171509}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.13 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2772, 290), 'rectangle': [(2667, 267), (2667, 313), (2877, 313), (2877, 267)], 'confidence': 0.9887272715568542}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.41 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2772, 290), 'rectangle': [(2667, 267), (2667, 313), (2877, 313), (2877, 267)], 'confidence': 0.9887272715568542, 'time': 1.4082014560699463}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_label_li.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (218, 46)->(363, 76), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (2569, 905), 'rectangle': ((2461.0, 883.0), (2461.0, 928.0), (2678.0, 928.0), (2678.0, 883.0)), 'confidence': 0.5107857584953308}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.82 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (2576, 753), 'rectangle': ((2395, 715), (2395, 791), (2758, 791), (2758, 715)), 'confidence': 0.5288991928100586}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.15 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2529, 355), 'rectangle': [(2422, 333), (2422, 378), (2637, 378), (2637, 333)], 'confidence': 0.9887079298496246}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.12 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2529, 355), 'rectangle': [(2422, 333), (2422, 378), (2637, 378), (2637, 333)], 'confidence': 0.9887079298496246, 'time': 1.117156744003296}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_label_li.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (2533, 357), 'rectangle': ((2424, 334), (2424, 380), (2642, 380), (2642, 334)), 'confidence': 0.999779999256134}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.22 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2533, 357), 'rectangle': ((2424, 334), (2424, 380), (2642, 380), (2642, 334)), 'confidence': 0.999779999256134, 'time': 0.21818232536315918}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_label_wang.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (2527, 294), 'rectangle': ((2416, 270), (2416, 318), (2638, 318), (2638, 270)), 'confidence': 0.9952672719955444}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.17 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2527, 294), 'rectangle': ((2416, 270), (2416, 318), (2638, 318), (2638, 270)), 'confidence': 0.9952672719955444, 'time': 0.16724014282226562}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_label_visitor.png)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.00 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (2529, 417), 'rectangle': ((2418, 394), (2418, 440), (2640, 440), (2640, 394)), 'confidence': 0.9963825345039368}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.18 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2529, 417), 'rectangle': ((2418, 394), (2418, 440), (2640, 440), (2640, 394)), 'confidence': 0.9963825345039368, 'time': 0.1764235496520996}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_water_status.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (208, 48)->(346, 80), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (1404, 1125), 'rectangle': ((1313.0, 1104.0), (1313.0, 1146.0), (1495.0, 1146.0), (1495.0, 1104.0)), 'confidence': 0.37015554308891296}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.78 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1937, 108), 'rectangle': ((1764, 68), (1764, 148), (2110, 148), (2110, 68)), 'confidence': 0.47291719913482666}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.14 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2771, 349), 'rectangle': [(2668, 325), (2668, 373), (2875, 373), (2875, 325)], 'confidence': 0.9873291254043579}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.46 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2771, 349), 'rectangle': [(2668, 325), (2668, 373), (2875, 373), (2875, 325)], 'confidence': 0.9873291254043579, 'time': 1.4600179195404053}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_irrigation_on.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (172, 38)->(286, 63), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (2223, 513), 'rectangle': ((2138.0, 495.0), (2138.0, 532.0), (2309.0, 532.0), (2309.0, 495.0)), 'confidence': 0.4630683362483978}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.64 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (2258, 484), 'rectangle': ((2115, 453), (2115, 516), (2401, 516), (2401, 453)), 'confidence': 0.5285747051239014}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.19 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2755, 220), 'rectangle': [(2669, 201), (2669, 239), (2841, 239), (2841, 201)], 'confidence': 0.9927416741847992}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.33 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2755, 220), 'rectangle': [(2669, 201), (2669, 239), (2841, 239), (2841, 201)], 'confidence': 0.9927416741847992, 'time': 1.332125186920166}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_irrigation_off.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (176, 42)->(293, 70), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (2358, 787), 'rectangle': ((2263.0, 765.0), (2263.0, 810.0), (2453.0, 810.0), (2453.0, 765.0)), 'confidence': 0.4954669773578644}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.62 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1925, 119), 'rectangle': ((1779, 84), (1779, 154), (2072, 154), (2072, 84)), 'confidence': 0.4925541281700134}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.15 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2762, 271), 'rectangle': [(2675, 251), (2675, 292), (2850, 292), (2850, 251)], 'confidence': 0.984245240688324}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.37 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2762, 271), 'rectangle': [(2675, 251), (2675, 292), (2850, 292), (2850, 251)], 'confidence': 0.984245240688324, 'time': 1.3726105690002441}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_view_area.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (170, 42)->(283, 70), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (1507, 1104), 'rectangle': ((1423.0, 1084.0), (1423.0, 1125.0), (1592.0, 1125.0), (1592.0, 1084.0)), 'confidence': 0.3237735331058502}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.50 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (2285, 488), 'rectangle': ((2144, 453), (2144, 523), (2427, 523), (2427, 453)), 'confidence': 0.4241515100002289}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.20 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2756, 172), 'rectangle': [(2672, 151), (2672, 193), (2841, 193), (2841, 151)], 'confidence': 0.9913041591644287}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.31 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2756, 172), 'rectangle': [(2672, 151), (2672, 193), (2841, 193), (2841, 151)], 'confidence': 0.9913041591644287, 'time': 1.3102867603302002}
+INFO     airtest.core.api:cv.py:59 Try finding: Template(D:\pycharm\PythonProject\SmartOrchard_AutoTest\unity\test_cases\../images/tpl_btn_exit_water.png)
+DEBUG    airtest.core.api:cv.py:246 resize: (172, 40)->(286, 66), resolution: (1920, 1080)=>(2880, 1800)
+DEBUG    airtest.core.api:cv.py:189 try match with MultiScaleTemplateMatchingPre
+DEBUG    airtest.aircv.multiscale_template_matching:multiscale_template_matching.py:186 [MSTemplatePre] threshold=0.7, result={'result': (1297, 1133), 'rectangle': ((1214.0, 1114.0), (1214.0, 1152.0), (1380.0, 1152.0), (1380.0, 1114.0)), 'confidence': 0.2609587609767914}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.74 s.
+DEBUG    airtest.core.api:cv.py:189 try match with TemplateMatching
+DEBUG    airtest.aircv.template_matching:template_matching.py:84 [Template] threshold=0.7, result={'result': (1939, 107), 'rectangle': ((1796, 74), (1796, 140), (2082, 140), (2082, 74)), 'confidence': 0.4042707681655884}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 0.16 s.
+DEBUG    airtest.core.api:cv.py:189 try match with SIFTMatching
+DEBUG    airtest.aircv.keypoint_base:keypoint_base.py:85 [SIFT] threshold=0.7, result={'result': (2757, 121), 'rectangle': [(2672, 101), (2672, 141), (2843, 141), (2843, 101)], 'confidence': 0.988986074924469}
+DEBUG    airtest.aircv.utils:utils.py:21 find_best_result() run time is 1.36 s.
+DEBUG    airtest.core.api:cv.py:155 match result: {'result': (2757, 121), 'rectangle': [(2672, 101), (2672, 141), (2843, 141), (2843, 101)], 'confidence': 0.988986074924469, 'time': 1.362689733505249}
